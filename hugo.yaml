@@ -15,7 +15,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Tech Tales & Code Trails
   description: "Stories from the development frontier. Real problems, elegant solutions, and the journey in between "
   keywords: [Blog, How To, GenAI, DevSecOps, LLMOps, Cloud Architecture]
@@ -132,3 +132,7 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+caches:
+  images:
+    dir: :cacheDir/images
